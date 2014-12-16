@@ -19,6 +19,7 @@ Over the course of the lessons, students will learn:
 
 [National Curriculum Computing Programmes of Study](https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study#key-stage-3)
 
+[National Curriculum Science Programmes of Study](https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study)
 
 
 ##Resources
