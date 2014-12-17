@@ -31,11 +31,13 @@ In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to tak
 1. Divide students into groups and hand out Raspberry Pi and Pi Camera Modules.
 1. Students to set up their Raspberry Pi and Pi Camera Modules.
 1. Explain Pi camera can be controlled using python and there is a python library to allow the configuration of the camera settings
-1. Students to set up code to take pictures using the [Set up worksheet](worksheet.md).
+1. Students to set up the Raspberry Pi and Pi Camera Module using the [Set up worksheet](worksheet1.md).
+1. Students take picture with the camera and experiment with the additional activities using the [Taking Pictures worksheet](worksheet2.md)
 
 ### Plenary
 
-Each group is invited to demonstrate the code they have written by executing it and showing the resulting photographs. 
+1. Each group is invited to demonstrate the code they have written by executing it and showing the resulting photographs. 
+2. Students to pack up Raspberry Pi, Pi Camera Modules and classroom.
 
 ### Homework
 
