@@ -1,6 +1,31 @@
 # Set up Your Raspberry Pi and Your Pi Camera Module
 
 ##Raspberry Pi Set Up
+## Step 1: Make sure that you have everything that you need
+
+Before you begin, check that you have all the parts that you need:
+
+### Required items:
+
+- A Raspberry Pi (Either a [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/))
+
+	![](images/Raspberry-Pis.jpg)
+
+- SD Card
+	- We recommend an 8GB class 4 SD card, ideally preinstalled with NOOBS. 
+	- You can [buy a card with NOOBS pre-installed](http://swag.raspberrypi.org/collections/frontpage/products/noobs-8gb-sd-card), or you can download it for free from our [downloads page](http://www.raspberrypi.org/downloads/).
+	
+- Display and connecting cables
+	- Any HDMI/DVI monitor or TV should work as a display for the Pi. 
+	- For best results, use one with HDMI input, but other connections are available for older devices. 
+	
+- Keyboard and mouse
+	- Any standard USB keyboard and mouse will work with your Raspberry Pi.
+	
+- Power supply
+	- Use a [5V micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave unexpectedly.
+
+
 
 
 ##Camera Set Up
