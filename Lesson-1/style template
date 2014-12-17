@@ -1,0 +1,51 @@
+# Lesson 1 - How do computers communicate?
+
+In th
+## Learning objectives
+
+- Know that a computer network consists of two or more computers (or devices) connected together
+
+
+## Learning outcomes
+
+### All students are able to:
+
+- Explain that a computer network is two or more computers joined together
+
+
+### Most students are able to:
+
+- Explain that every computer on a network needs a unique address called an IP address
+
+
+### Some students are able to:
+
+- Make more complex changes to their program such as sending responses to keywords
+
+## Lesson summary
+
+- An introduction to simple computer networks
+- Networking the Raspberry Pis
+- Writing the chat program
+
+
+## Starter
+
+This starter is a quick-fire "ideas" round to introduce students to the ubiquity of networks and why they are useful or, in their eyes, essential!
+
+1. Introduce the idea that computer networks are everywhere. In groups of two or three, ask the students to write down as many networked devices (or uses of networking) as they can in two minutes. Give them one or two examples to get them started.
+
+1. Ask the groups to circle any of the devices on their list that they have used since they got up this morning. They have one minute to do this.
+
+
+## Main development
+
+The concepts that the students learned from the homework will be used and consolidated as they complete the tasks.
+
+1. Students should set up the network and send messages using the [Student Instructions](student-instructions-1.md).
+
+1. *Optional*: If you will be using the SD cards again on a network, students will need to undo their changes to the `interfaces` file. Ask them to do this as per the 'Cleanup' section of the student instructions.
+
+## Plenary
+
+Write th
