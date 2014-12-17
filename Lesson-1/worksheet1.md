@@ -1,5 +1,7 @@
 #Raspberry Pi and Pi Camera Module Set Up
 
+In this lesson you will set up and test the Raspberry Pi and Pi Camera Module.
+
 ##Raspberry Pi Set Up
 ## Step 1: Make sure that you have everything that you need
 
@@ -24,9 +26,6 @@ Before you begin, check that you have all the parts that you need:
 	
 - Power supply
 	- Use a [5V micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave unexpectedly.
-
-
-
 
 ##Camera Set Up
 
@@ -53,8 +52,9 @@ Before you begin, check that you have all the parts that you need:
 1. At the command prompt enter `raspistill -o image.jpg`
 1. On the screen you should see a preview appear for a few seconds, and then change briefly while the image is captured
 
-if this does not happen go back and check you have connected and activated the Camera module correctly. 
+If this does not happen go back and check you have connected and activated the Camera module correctly. 
 
+If the image appears as expecetd then you are ready to move on to [taking pictures](worksheet2.md)
 
 ## Licence
 
