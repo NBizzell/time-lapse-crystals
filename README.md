@@ -5,6 +5,9 @@ This scheme of work is a cross curricular project involving Computer Science and
 
 This scheme of work is specifically targetted towards KS3 Computer Science and KS3 Science.
 
+If students have little or no exposure to Python it might be worth trying some simple exercises first for example the [Story time with Python exercise from the Raspberry Pi Foundation]
+(http://www.raspberrypi.org/learning/storytime/). There is also a small project version of this scheme for less advanced students (written for KS1/2 Home educated children here) - add link when done
+
 ##Students will learn:
 Over the course of the lessons, students will learn:
 - How to set up the Raspberry Pi and Pi Camera Module.
