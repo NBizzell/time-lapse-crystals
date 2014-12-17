@@ -79,12 +79,12 @@ For the crystal formation lessons students will also need:
 - Safety glasses / goggles
 
 ##Lessons
-- [Lesson 1 - Setting up the Camera](lesson1/README.md)
-- [Lesson 2 - Time-lapse Photography](lesson2/README.md)
-- [Lesson 3 - Crystal Formation](lesson3/README.md)
-- [Lesson 4 - Experiment set up](lesson4/README.md) 
-- [Lesson 5 - Creating a Time-Lapse video](lesson5/README.md)
-- [Lesson 6 - Comparing the results](lesson6/README.md)
+- [Lesson 1 - Setting up the Camera](lesson-1/README.md)
+- [Lesson 2 - Time-lapse Photography](lesson-2/README.md)
+- [Lesson 3 - Crystal Formation](lesson-3/README.md)
+- [Lesson 4 - Experiment set up](lesson-4/README.md) 
+- [Lesson 5 - Creating a Time-Lapse video](lesson-5/README.md)
+- [Lesson 6 - Comparing the results](lesson-6/README.md)
 
 
 ##Licence
