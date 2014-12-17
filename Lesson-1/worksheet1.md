@@ -4,11 +4,11 @@ In this lesson you will set up and test the Raspberry Pi and Pi Camera Module.
 
 ##Raspberry Pi Set Up
 
-## Step 1: Make sure that you have everything that you need
+### Step 1: Make sure that you have everything that you need
 
 Before you begin, check that you have all the parts that you need:
 
-### Required items:
+#### Required items:
 
 - A Raspberry Pi (Either a [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/))
 
@@ -28,7 +28,7 @@ Before you begin, check that you have all the parts that you need:
 - Power supply
 	- Use a [5V micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave unexpectedly.
 
-## Step 2: Plugging in your Raspberry Pi
+### Step 2: Plugging in your Raspberry Pi
 
 Now you have all the parts you need to get up and running, let's start plugging in!
 
@@ -40,7 +40,7 @@ Make sure that your monitor or TV is turned on, and that you have selected the r
 1. Finally, when you are happy that you have plugged in all the cables and SD card required, plug in the micro USB power supply. This action will turn on and boot your Raspberry Pi.
 1. If this is the first time your Raspberry Pi and NOOBS SD card have been used, then you will have to select an operating system and configure it. [Follow the NOOBS guide to do this](http://www.raspberrypi.org/help/noobs-setup/).
 
-## Step 3: Logging into your Raspberry Pi
+### Step 3: Logging into your Raspberry Pi
 
 Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Let's log in to find out:
 
