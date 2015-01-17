@@ -21,7 +21,7 @@ for frame in range(FRAMES):
     # Note the time before the capture
     start = time.time()
     capture_frame(frame)
-
+'''
 ## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
