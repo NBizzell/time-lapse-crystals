@@ -40,6 +40,10 @@ In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to tak
 1. Each group is invited to demonstrate the movies they have created. 
 2. Students to pack up Raspberry Pi, Pi Camera Modules and classroom.
 
+### Extension
+
+1. Students can attempt to take timelapse photographs using a Bash Script using [Bash Timelapse](worksheet4.md) worksheet for support
+
 ### Homework
 
 
@@ -49,6 +53,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-Set Up by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***TimeLapse Photography*** by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 
