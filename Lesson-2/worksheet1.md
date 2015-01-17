@@ -20,3 +20,11 @@ will produce a capture every 2 seconds over a total period of
 that the %04d indicates a four-digit number with leading zeros
 added to pad to the required number of digits. So, for example,
 %08d would result in an eight-digit number.
+
+Unless otherwise specified, everything in this repository is covered by the following licence:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+***Timelapse Movie*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Partly based on a work at https://github.com/raspberrypilearning/python-picamera-setup
