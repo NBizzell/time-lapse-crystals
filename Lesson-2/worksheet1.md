@@ -1,4 +1,4 @@
-#Command Line Time-lapse photography
+#Command Line Timelapse photography
 
 In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using the command line.
 
