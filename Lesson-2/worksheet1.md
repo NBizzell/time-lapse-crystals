@@ -1,5 +1,7 @@
 #Command Line Time-lapse photography
 
+
+
 'raspistill -o /home/pi/camera/sky%04d.jpg -tl 60000 -t 18000000'
 
 explain how this works -tl is interval of 60000 which is 60000 miliseconds. 
@@ -21,6 +23,8 @@ that the %04d indicates a four-digit number with leading zeros
 added to pad to the required number of digits. So, for example,
 %08d would result in an eight-digit number.
 
+
+###licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
