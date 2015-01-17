@@ -9,12 +9,13 @@ In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and t
 ## Step 1: Set up your series of pictures
 
 1. At the command line or if you have already opened the GUI open LXTerminal
-1. Type 'mkdir timelapse' to create a folder to hold the pictures you are about to take.
-1. Ensure the camera is pointing towards the classroom
+1. Type `mkdir timelapse` to create a folder to hold the pictures you are about to take.
+1. Ensure the camera is pointing towards the classroom.
 
 ## Step 2: Use the command line to start the process
 
-You have used the command 'raspistill' before to take individual pictures. We are going to use some other attributes of the command to take multiple pictures at specific time intervals. 
+###The raspistill command
+You have used the command `raspistill` before to take individual pictures. We are going to use some other attributes of the command to take multiple pictures at specific time intervals. 
  
 These attributes are `-tl x` for the interval betwwen photographs and and `-t x` for the time for the overall 
 time (where x will be replaced by the time interval in miliseconds). for this expercise we are going to take one picture every two seconds for an overall time of  one minute. This means we will use `-tl 2000 -t 60000`
@@ -23,10 +24,9 @@ We want to save the output to the `timelapse` folder we created so we will also 
 
 Combined together this gives the full command: `raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 60000`
 
-1. Again at the command line or LXTerminal type the command 
 
-`raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 60000`
-
+###Take the pictures
+1. At the command line or LXTerminal type the command `raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 60000`
 1. A preview image should appear on the screen for the duration of the command running.
 1. Wait for the command to finish running (you may wish to walk past the camera slowly ocasionally to add interest to your pictures)
 
