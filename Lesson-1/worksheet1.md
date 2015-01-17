@@ -53,14 +53,14 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 
 ![Raspberry Pi Camera Module](../images/rpicam.png)
 
-### Connecting the camera
+### Step 1: Connecting the camera
 
 1. Locate the camera port next to the ethernet port
 1. Lift the tab on the top
 1. Place the strip in the connector (blue side facing the ethernet port)
 1. While holding the strip in place, push down the tab
 
-### Activate the camera
+### Steo 2: Activate the camera
 
 1. Connect a USB cable to the power
 1. Login with username `pi` and password `raspberry`
@@ -70,7 +70,7 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 1. Select `Finish`
 1. Select `Yes` to reboot
 
-### Test the camera
+### Step 3: Test the camera
 
 1. Login again with username `pi` and password `raspberry`
 1. At the command prompt enter `raspistill -o image.jpg`
