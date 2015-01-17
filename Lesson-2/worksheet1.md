@@ -1,6 +1,17 @@
 #Command Line Time-lapse photography
 
+In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using the command line.
 
+##Step 0: Set up the raspberry Pi and Pi Camera Module
+
+Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson1/worksheet1.md) to remind you. 
+
+## Step 1: Set up your series of pictures
+
+Make a folder to hold you pictures
+work out how long to take pictures for
+
+## Step 2: Use the command line to start the process
 
 'raspistill -o /home/pi/camera/sky%04d.jpg -tl 60000 -t 18000000'
 
@@ -23,6 +34,9 @@ that the %04d indicates a four-digit number with leading zeros
 added to pad to the required number of digits. So, for example,
 %08d would result in an eight-digit number.
 
+## Step 3: check your pictures have been taken
+
+use ls to check the contents of the folder
 
 ###licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
