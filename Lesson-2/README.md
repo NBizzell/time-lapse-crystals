@@ -1,27 +1,54 @@
-#Time-lapse photography
+#Lesson 2 - Timelapse Photography
 
-##easy /short way
-
-raspistill -o /home/pi/camera/sky%04d.jpg -tl 60000 -t 18000000
-
-explain how this works -tl is interval of 60000 which is 60000 miliseconds. 
-/home bit is file name with sequential numbering.
-
-explain rest of raspbstill command.
-
---timelapse, -tl Timelapse mode.
-
-The specific value is the time between shots in milliseconds.
-Note you should specify %04d at the point in the filename where
-you want a frame count number to appear. For example:
-
--t 30000 -tl 2000 -o image%04d.jpg
-
-will produce a capture every 2 seconds over a total period of
-30s, named image1.jpg, image0002.jpg...image0015.jpg. Note
-that the %04d indicates a four-digit number with leading zeros
-added to pad to the required number of digits. So, for example,
-%08d would result in an eight-digit number.
+In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to take timelapse pictures using python and/or the command line. 
 
 
-##Python code way
+## Learning objectives
+
+- Revise how the Raspberry Pi and Pi Camera are setup
+- Know how to take timelapse pictures with the Pi Camera using python
+- Know how to take timelapse pictures with the Pi Camera using the command line
+
+## Learning outcomes
+
+### All Students are able to:
+- Set up the Raspberry Pi and Pi Camera and take a series of timelapse photographs
+
+### Most Students are able to:
+- Take timelapse photograhs using the command line
+- Understand how to change the variable when using the command line for timelapse photography
+
+### Some Students are able to:
+- Take timelapse photographs using python
+- Understand how to alter the python script to change the way the timelapse phtographs are taken.
+
+## Lesson summary
+
+### Starter
+
+1. Students set up the Raspberry Pi and Pi Camera Module ready for use in the lesson.
+1. Students take a picture to test the camera module is working correctly.
+
+### Main development
+
+1. Students to attempt a short timelapse sequence (of the classroom) using the command line using the [Command line Timelapse](worksheet1.md) worksheet for support.
+1. Students to attempt a short timelapse sequence (of the classroom) using the Python using the [Python Timelapse](worksheet2.md) worksheet for support.
+1. Students combine their pictures into a timelapse movie using the [Timelapse video](worksheet3.md) for support
+
+### Plenary
+
+1. Each group is invited to demonstrate the movies they have created. 
+2. Students to pack up Raspberry Pi, Pi Camera Modules and classroom.
+
+### Homework
+
+
+## Licence
+
+Unless otherwise specified, everything in this repository is covered by the following licence:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+Set Up by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+
