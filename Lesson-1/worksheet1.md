@@ -12,7 +12,7 @@ Before you begin, check that you have all the parts that you need:
 
 - A Raspberry Pi
 
-	![Raspberry Pi B+](images/RpiB+.jpg) ![Raspberry Pi A+](images/RpiA+.jpg)
+	![Raspberry Pi B+](../images/RpiB+.jpg) ![Raspberry Pi A+](../images/RpiA+.jpg)
 
 - SD Card
 	- We recommend an 8GB class 4 SD card, ideally preinstalled with NOOBS. 
@@ -50,6 +50,8 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 1. Once the Raspberry Pi has shut down completely, remove the power lead 
 
 ##Camera Set Up
+
+![Raspberry Pi Camera Module](../images/rpicam.png)
 
 ### Connecting the camera
 
