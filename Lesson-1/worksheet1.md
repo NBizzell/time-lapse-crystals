@@ -10,9 +10,9 @@ Before you begin, check that you have all the parts that you need:
 
 #### Required items:
 
-- A Raspberry Pi (Either a [Model B](http://www.raspberrypi.org/product/model-b/) or [Model B+](http://www.raspberrypi.org/product/model-b-plus/))
+- A Raspberry Pi
 
-	![](images/Raspberry-Pis.jpg)
+	![Raspberry Pi B+](images/RpiB+.jpg) ![Raspberry Pi A+](images/RpiA+.jpg)
 
 - SD Card
 	- We recommend an 8GB class 4 SD card, ideally preinstalled with NOOBS. 
