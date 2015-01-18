@@ -92,6 +92,9 @@ Run your code to see if it has been created correctly.
 1. At the command line type `cd pythontl` to change into the folder we created earlier
 1. Type `ls` to show the contents of the folder. If the script worked correctly there should be 30 picture in the folder.
 
+##Step 4: Next Steps
+
+Try using [the command line](worksheet1.md) or [BASH](worksheet4.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
 
 ## Extension
 
