@@ -138,7 +138,9 @@ You can shut down the Pi, remove it from the monitor and ethernet and simply hav
 
 You can even use a battery pack if you have one that lasts long enough for your requirements. This is especially handy if you need to position the power out of reach of a power socket, such as on a roof or in a tree!
 
+##Step 5: Next steps
 
+Try using [the command line](worksheet1.md) or [python](worksheet2.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
 
 ## Licence
 
