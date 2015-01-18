@@ -3,7 +3,7 @@
 
 In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a python script.
 
-##Step 0: Set up the raspberry Pi and Pi Camera Module
+##Step 0: Set up the Raspberry Pi and Pi Camera Module
 
 1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson1/worksheet1.md) to remind you. 
 
