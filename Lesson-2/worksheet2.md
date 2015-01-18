@@ -1,11 +1,29 @@
 
 #Python Timelapse Photography
 
-In this exercise you will create a python script to take the pictures for the timelapse sequence.
+In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a python script.
 
-##Step 0: 
+##Step 0: Set up the raspberry Pi and Pi Camera Module
 
-```python
+1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson1/worksheet1.md) to remind you. 
+
+## Step 1: Set up your series of pictures
+
+1. At the command line or if you have already opened the GUI open LXTerminal
+1. Type `mkdir pythontl` to create a folder to hold the pictures you are about to take.
+1. Ensure the camera is pointing towards the classroom.
+
+## Step 2: Write the Python Script to take the pictures
+
+1.Open IDLE and a new window `ctrl+N` save the file as `pythontl.py`
+
+or
+
+at the command line use the command `nano pythontl.py`
+
+1.Copy the below code into the file:
+
+```
 import time
 import picamera
 
@@ -16,7 +34,7 @@ FRAMES = FRAMES_PER_HOUR * 24 * VIDEO_DAYS
 def capture_frame(frame):
     with picamera.PiCamera() as cam:
         time.sleep(2)
-        cam.capture('/home/pi/Desktop/frame%03d.jpg' % frame)
+        cam.capture('/home/pi/Desktop/pythontl/class%02d.jpg' % frame)
 
 # Capture the images
 for frame in range(FRAMES):
@@ -30,6 +48,10 @@ for frame in range(FRAMES):
         int(60 * 60 / FRAMES_PER_HOUR) - (time.time() - start)
     )
 ```
+First we import
+
+###Write the script
+
 
 ##extra
 ```
