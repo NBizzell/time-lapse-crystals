@@ -1,4 +1,4 @@
-# Time-lapse using BASH
+# Timelapse Using BASH
 
 In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a BASH script
 
@@ -130,6 +130,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Time-lapse Using BASH*** by the [Neil Bizzell](http://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Timelapse Using BASH*** by [Neil Bizzell](http://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/timelapse-setup
