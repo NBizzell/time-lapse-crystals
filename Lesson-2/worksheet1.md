@@ -37,9 +37,9 @@ Combined together this gives the full command: `raspistill -o /home/pi/timelapse
 
 If your command worked correctly you should be able to see 30 pictures in the folder.
 
-## Step 4: 
+## Step 4: Next Steps
 
-Try using [python to take pictures](worksheet2.md) or [combine the pictures you have taken to make a movie](worksheet3.md).
+Try using [python](worksheet2.md) or [BASH](worksheet4.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
 
 
 ###licence
