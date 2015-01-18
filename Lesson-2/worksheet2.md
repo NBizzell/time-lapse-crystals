@@ -95,11 +95,11 @@ Run your code to see if it has been created correctly.
 
 ## Extension
 
-We can get the code to run eachtime the Raspberry PI powers up s that we can start it without needing to be connected to a monitor, keyboard or mouse. This can be especially useful if we wnat to take timelapse picture in a location where space is limited. It also means we could use a battery pack and place the RPi in a remote location.
+Currently your code will run when you type in a command to call the python script. This however requires you to have the Raspberry Pi connected to a Monitor, Keyboard and Mouse. We can get the code to run eachtime the RPi powers up so that we can start the script without needing to be connected to anythning apart from power. This can be especially useful if we want to take timelapse picture in a location where space is limited. It also means we could use a battery pack and place the RPi in a remote location.
 
 To do this we add a `cron` job to the Raspberry Pi. `cron` is a scheduling tool that can be used to start scripts when needed (in this case at startup) or run them repeatedly at specific times of day.
 
-to add a cron jon follow the instructions below:
+to add a cron job follow the instructions below:
 
 1. At the command line or in LXTermianl type `sudo nano crontab -e`
 1. At the bottom of the script insert `@reboot python /home/pi/timelapse.py &`
