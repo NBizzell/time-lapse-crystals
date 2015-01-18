@@ -15,7 +15,7 @@ In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and t
 
 ## Step 2: Write the Python Script to take the pictures
 
-1.Open IDLE and a new window `ctrl+N` save the file as `pythontl.py`
+1. Open IDLE and a new window `ctrl+N` save the file as `timelapse.py`
 
 or
 
@@ -44,7 +44,7 @@ for frame in range(FRAMES):
     )
 ```
 
-3. Save the code using `ctrl+s` in IDLE or `ctrl+x` then `y` in Nano
+3. Save the code using `ctrl+s` in IDLE or `ctrl+x` then `y` in nano
 
 ###Explaination of the code
 
@@ -87,30 +87,27 @@ The last line then waits for the set time before the next frame is due to be cap
 
 Run your code to see if it has been created correctly.
 
-1. At the command line type `python pythontl.py` or press `F5` in the IDLE window to start the code. The code will start to run. The camera should take one picture every six seconds for three minutes.
+1. At the command line type `python timelapse.py` or press `F5` in the IDLE window to start the code. The code will start to run. The camera should take one picture every six seconds for three minutes.
 1. Wait for the code to complete.
 1. At the command line type `cd pythontl` to change into the folder we created earlier
 1. Type `ls` to show the contents of the folder. If the script worked correctly there should be 30 picture in the folder.
 
 
-##extra
+## Extension
 
-Next, we can automate the startup so the camera activates each time it is powered up. To do we need to add a cron job. This will mean on each boot of the Raspberry Pi the script will activate and begin capturing images.
+We can get the code to run eachtime the Raspberry PI powers up s that we can start it without needing to be connected to a monitor, keyboard or mouse. This can be especially useful if we wnat to take timelapse picture in a location where space is limited. It also means we could use a battery pack and place the RPi in a remote location.
 
-sudo nano crontab -e
+To do this we add a `cron` job to the Raspberry Pi. `cron` is a scheduling tool that can be used to start scripts when needed (in this case at startup) or run them repeatedly at specific times of day.
 
-At the bottom of the script insert
+to add a cron jon follow the instructions below:
 
-@reboot python /home/raspiLapseCam.py &
+1. At the command line or in LXTermianl type `sudo nano crontab -e`
+1. At the bottom of the script insert `@reboot python /home/pi/timelapse.py &`
+1. Save  by pressing `ctrl + x` then `Y`.
 
-Of course change /home to the correct pathway where you have the script.
-Save this script (CTRL + X) and “Y”
+The Raspberry Pi will then run your script each time it reboots. This appears to work best after a full shutdown so before using this shut down the RPi using `sudo halt`
 
-Rebooting the device will mean this script executes. On testing I found that it needs a full shutdown before this will reliably work each time. So to reuse the device you’ll need to log in, and perform a shutdown with
-
-sudo shutdown "now"
-
-Once you have shut down correctly, you can simply switch on the Raspberry Pi’s battery power supply and the script will launch normally when the device boots up. This is easpecially useful if you’re deploying the timelapse camera for an extended period outside the range of network connections.
+When you next boot the RPi it will automatically run your script.
 
 
 ## Licence
@@ -121,4 +118,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ***Python Timelapse Photography*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Partly based on works at https://github.com/raspberrypilearning/python-picamera-setup, http://trevorappleton.blogspot.co.uk/2013/11/creating-time-lapse-camera-with.html and http://www.fotosyn.com/simple-timelapse-camera-using-raspberry-pi-and-a-coffee-tin/#video
+Partly based on works at https://github.com/raspberrypilearning/python-picamera-setup and http://www.fotosyn.com/simple-timelapse-camera-using-raspberry-pi-and-a-coffee-tin/#video
