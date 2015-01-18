@@ -34,20 +34,16 @@ FRAMES = FPH * VDUR
 def capture_frame(frame):
     with picamera.PiCamera() as cam:
         time.sleep(2)
-        cam.capture('/home/pi/Desktop/pythontl/class%02d.jpg' % frame)
+        cam.capture('/home/pi/pythontl/frame%04d.jpg' % frame)
 
-# Capture the images
 for frame in range(FRAMES):
-    # Note the time before the capture
     start = time.time()
     capture_frame(frame)
-    # Wait for the next capture. Note that we take into
-    # account the length of time it took to capture the
-    # image when calculating the delay
     time.sleep(
         int(60 * 60 / FRAMES_PER_HOUR) - (time.time() - start)
     )
 ```
+
 ##Explaination of the code
 
 ```
@@ -62,14 +58,28 @@ FPH = 600
 FRAMES = FPH * VDUR 
 ```
 
-Then we set the video duration (in  hours) `VDUR` and Frames per Hour `FPH`. in this case we are setting the duration to 0.1 hours (or 3 minutes) and the Frames per hour to 600 (or one photograph every 6 seconds). The total number of fraomes is then calculated by multiplying these together to give the variable `FRAMES`
+Then we set the video duration (in  hours) `VDUR` and Frames per Hour `FPH`. in this case we are setting the duration to 0.1 hours (or 3 minutes) and the Frames per hour to 600 (or one photograph every 6 seconds). The total number of frames is then calculated by multiplying these together to give the variable `FRAMES`
 
 ```
 def capture_frame(frame):
     with picamera.PiCamera() as cam:
         time.sleep(2)
-        cam.capture('/home/pi/Desktop/pythontl/class%02d.jpg' % frame)
+        cam.capture('/home/pi/pythontl/frame%04d.jpg' % frame)
 ```
+The next step is to define a procedure called `capture_frame` to capture and name the pictures. eache picture ius saved in the folder we created earlier `/home/pi/pythontl` and named with `frame` the number passed as an arugument and 4 training zeros e.g. 00001.jpg.
+
+```
+for frame in range(FRAMES):
+    start = time.time()
+    capture_frame(frame)
+    time.sleep(
+        int(60 * 60 / FPH) - (time.time() - start)
+    )
+```
+
+This procedure is then called from within and for loop that runs until all of the frames required have been captured. This is defined by the `FRAMES` variable that was calculated earlier. For each frame the time befor ethe start of the capture process is recorded using `start = time.time()`. The procedure to capture the frames is called and passed the frame number `capture_frame(frame)`. 
+
+The last line then waits for the set time before the next frame is due to be captured. it does that by calculating the time interval `(60 * 60 / FPH)` and subtracting the time taken to capture the frame (by subtracting the start time from the current time `(time.time() - start)` 
 
 
 
