@@ -1,32 +1,16 @@
-# Time-lapse Setup Using the Camera Module
+# Time-lapse using BASH
 
-How to set up a time-lapse with a Raspberry Pi using the camera module.
+In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a BASH script
 
-## Step 0: Camera setup
+##Step 0: Set up the raspberry Pi and Pi Camera Module
 
-Follow the [camera module setup guide](http://www.raspberrypi.org/help/camera-module-setup/).
+1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson1/worksheet1.md) to remind you. 
 
-## Step 1: Test the camera
+## Step 1: Set up your series of pictures
 
-With the camera module connected and enabled, enter the following command in the Terminal to take a picture:
-
-```bash
-raspistill -o cam.jpg
-```
-
-You should see a preview on screen as the picture is taken.
-
-Now type `ls` and you should see a file called `cam.jpg`. Open your home folder in the file browser and view the image (right click and select `Open with image preview`). If there's a picture of what your camera was pointed at - then your camera works!
-
-If your picture was upside-down this is because your camera is pointed upside-down - that's ok - sometimes it's easier to have it that way up, and you can flip the image over.
-
-If you intend to have your camera positioned upside-down, pass in the `-hf` and `-vf` flags to horizontally and vertically flip the image (otherwise skip to Step 2):
-
-```bash
-raspistill -hf -vf -o cam2.jpg
-```
-
-Now check again, there should now be a `cam2.jpg` file. Open the image and check it's the right way up.
+1. At the command line or if you have already opened the GUI open LXTerminal
+1. Type `mkdir timelapse` to create a folder to hold the pictures you are about to take.
+1. Ensure the camera is pointing towards the classroom.
 
 ## Step 2: Write a script
 
@@ -37,36 +21,25 @@ Now we'll write a Bash script which will take a picture and save it with the dat
 
 DATE=$(date +"%Y-%m-%d_%H%M")
 
-raspistill -o /home/pi/camera/$DATE.jpg
+raspistill -o /home/pi/timelapse/$DATE.jpg
 ```
 
-Remember to use the `-vf` and `-hf` flags if your camera is pointed upside-down.
-
-Create a new file called `camera.sh` by opening with a text editor, e.g. `nano camera.sh`, paste or otherwise enter the lines from above and save the file.
+Create a new file called `camera.sh` by opening with a text editor, e.g. `nano bashtl.sh`, paste or otherwise enter the lines from above and save the file.
 
 Now make this file executable with the following command:
 
 ```bash
-chmod +x camera.sh
+chmod +x bashtl.sh
 ```
 
-Running this script will save a picture with the timestamp as the filename in a folder called `camera` in your home directory. First we'll create this folder:
-
-```bash
-mkdir camera
-```
-
-Make sure you're in the home directory when you do this. If you're not, or you're not sure, just type `cd` and hit `Enter` to return to your home directory.
-
-You can use `pwd` (present working directory) to verify your location and `ls` to show the contents. After running `mkdir` you should see a new folder there.
 
 Before continuing, test the script works as intended by running it from the command line (first return to the home directory with `cd`):
 
 ```bash
-./camera.sh
+./bashtl.sh
 ```
 
-You should see the preview again as the picture is taken. Now use `ls camera` to look inside the `camera` folder to see the picture you just captured on disk.
+You should see the preview again as the picture is taken. Now use `ls timelapse` to look inside the `timelapse` folder to see the picture you just captured on disk.
 
 Open the file browser and preview the image to see the picture itself. If you're happy this worked as intended, and the date and time were given in the filename, continue to automation.
 
@@ -77,10 +50,8 @@ Now you have a Bash script which takes pictures and timestamps them, you can sch
 To do this we'll use `cron`. First open the cron table for editing:
 
 ```bash
-sudo crontab -e
+sudo nano crontab -e
 ```
-
-If you've not run `crontab` before you'll be prompted to select an editor - if you don't know the difference, choose `nano` by hitting `Enter`.
 
 Now you'll see the `cron` file, scroll to the bottom where you'll see a line with the following column headers:
 
@@ -104,10 +75,10 @@ Minute, Hour, Day of Month, Month of Year, Day of Week and the command to be exe
 # └───────────────────────── min (0 - 59)
 ```
 
-To schedule for the `camera.sh` script to be executed every minute, add the following line:
+To schedule for the `bashtl.sh` script to be executed every minute, add the following line:
 
 ```bash
-* * * * * /home/pi/camera.sh 2>&1
+* * * * * /home/pi/bashtl.sh 2>&1
 ```
 
 Now save and exit. If you're using `nano` as your editor, that's `Ctrl + O` to save and `Ctrl + X` to exit.
@@ -118,10 +89,10 @@ You should see the following message:
 crontab: installing new crontab
 ```
 
-Now return to the camera directory to see the photos start to appear:
+Now return to the timelapse directory to see the photos start to appear:
 
 ```bash
-cd ~/camera/
+cd ~/timelapse/
 ```
 
 and use `ls` to see the contents of the folder. Enter `date` to see how close you are to the minute (`00` seconds) as a new picture should be captured at this precise time.
@@ -138,9 +109,20 @@ You can shut down the Pi, remove it from the monitor and ethernet and simply hav
 
 You can even use a battery pack if you have one that lasts long enough for your requirements. This is especially handy if you need to position the power out of reach of a power socket, such as on a roof or in a tree!
 
-##Step 5: Next steps
+##Step 5: Remove the cron job
+
+If you want the camera to keep capturing images then that is fine. However it is likely that at some point you will want to stop the images appearing every minute.
+
+To do this go back to the command line and type `sudo nano crontab -e` and remove the line you previously added. press `ctrl + x` to exitand `y` to save the changes made.
+
+The pictures will stop being captured every minute.
+
+
+##Step 6: Next steps
 
 Try using [the command line](worksheet1.md) or [python](worksheet2.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
+
+
 
 ## Licence
 
@@ -148,6 +130,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Time-lapse Setup*** by the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Time-lapse Using BASH*** by the [Neil Bizzell](http://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/timelapse-setup
