@@ -21,15 +21,15 @@ or
 
 at the command line use the command `nano pythontl.py`
 
-1.Copy the below code into the file:
+2. Type the code eactly as it appears below into the file:
 
 ```
 import time
 import picamera
 
-VIDEO_DAYS = 5
-FRAMES_PER_HOUR = 1
-FRAMES = FRAMES_PER_HOUR * 24 * VIDEO_DAYS
+VDUR = 0.1
+FPH = 600
+FRAMES = FPH * VDUR 
 
 def capture_frame(frame):
     with picamera.PiCamera() as cam:
@@ -48,9 +48,29 @@ for frame in range(FRAMES):
         int(60 * 60 / FRAMES_PER_HOUR) - (time.time() - start)
     )
 ```
-First we import
+##Explaination of the code
 
-###Write the script
+```
+import time
+import picamera
+```
+First we import the python time and picamera libraries that will be used later in the code.
+
+```
+VDUR = 0.1
+FPH = 600
+FRAMES = FPH * VDUR 
+```
+
+Then we set the video duration (in  hours) `VDUR` and Frames per Hour `FPH`. in this case we are setting the duration to 0.1 hours (or 3 minutes) and the Frames per hour to 600 (or one photograph every 6 seconds). The total number of fraomes is then calculated by multiplying these together to give the variable `FRAMES`
+
+```
+def capture_frame(frame):
+    with picamera.PiCamera() as cam:
+        time.sleep(2)
+        cam.capture('/home/pi/Desktop/pythontl/class%02d.jpg' % frame)
+```
+
 
 
 ##extra
