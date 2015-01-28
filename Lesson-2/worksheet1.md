@@ -42,7 +42,7 @@ If your command worked correctly you should be able to see 30 pictures in the fo
 Try using [python](worksheet2.md) or [BASH](worksheet4.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
 
 
-###licence
+##Licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
