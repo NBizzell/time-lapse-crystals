@@ -46,7 +46,7 @@ In this Lesson students learn how to setup an experiment seperating a solution.
 1. Question students on what they expect to see happen. 
 
 ### Homework
-Write up the experiment Method.
+Write up the experiment method.
 
 ## Licence
 
