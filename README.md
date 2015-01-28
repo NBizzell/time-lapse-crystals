@@ -72,7 +72,7 @@ For the majority of the lessons, it is suggested that work is carried out by stu
 - A monitor connected to the RPi per pair
 
 For the crystal formation lessons students will also need:
-- Copper sulphate and water (or a preprepared saturated solution of copper sulphate)
+- Copper Sulphate and water (or a preprepared saturated solution of Copper Sulphate)
 - Glass beakers
 - Petri dishes
 - Bunsen burner, stand and mat(if preparing their own solutions)
@@ -81,11 +81,8 @@ For the crystal formation lessons students will also need:
 ##Lessons
 - [Lesson 1 - Setting up the Camera](Lesson-1/README.md)
 - [Lesson 2 - Time-lapse Photography](Lesson-2/README.md)
-- [Lesson 3 - Crystal Formation](Lesson-3/README.md)
-- [Lesson 4 - Experiment set up](Lesson-4/README.md) 
-- [Lesson 5 - Creating a Time-Lapse video](Lesson-5/README.md)
-- [Lesson 6 - Comparing the results](Lesson-6/README.md)
-
+- [Lesson 3 - Experiment set up](Lesson-3/README.md) 
+- [Lesson 4 - Creating a Video and viewing the results](Lesson-5/README.md)
 
 ##Licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
