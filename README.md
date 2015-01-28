@@ -3,10 +3,10 @@
 ##Introduction
 This scheme of work is a cross curricular project involving Computer Science and Chemistry. The students will set up and program a Raspberry Pi and Pi Camera Module to record the growth of crystals in a petri dish.
 
-This scheme of work is specifically targetted towards KS3 Computer Science and KS3 Science.
+This scheme of work is specifically targetted towards KS3 Computer Science and KS3 Science. TRhe Scheme is designed for lessons of around 50 minutes. 
 
 If students have little or no exposure to Python it might be worth trying some simple exercises first for example the [Story time with Python exercise from the Raspberry Pi Foundation]
-(http://www.raspberrypi.org/learning/storytime/). There is also a small project version of this scheme for less advanced students (written for KS1/2 Home educated children here) - add link when done
+(http://www.raspberrypi.org/learning/storytime/).
 
 ##Students will learn:
 Over the course of the lessons, students will learn:
