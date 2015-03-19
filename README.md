@@ -1,5 +1,9 @@
 #Time Lapse Crystals Scheme of Work
 
+[![Alt text for your video](http://img.youtube.com/vi/T=SYl7JsgNdz4.jpg)](https://www.youtube.com/watch?v=SYl7JsgNdz4)
+
+
+
 ##Introduction
 This scheme of work is a cross curricular project involving Computer Science and Chemistry. The students will set up and program a Raspberry Pi and Pi Camera Module to record the growth of crystals in a petri dish.
 
