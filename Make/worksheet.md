@@ -52,10 +52,7 @@ If your command worked correctly you should be able to see 15 pictures in the fo
 
 
 
-There are are some other ways to set up the camera to take the pictures instructions are available here for [using Python](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-2/worksheet2.md) and [ using the bash](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-2/worksheet4.md).
-
-
-
+There are are some other ways to set up the camera to take the pictures instructions are available here for [using Python](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-2/worksheet2.md) and [ using Bash and Cron](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-2/worksheet4.md).
 
 
 
