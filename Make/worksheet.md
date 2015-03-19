@@ -1,4 +1,4 @@
-#Time Lapse Crystals
+#TimeLapse Crystals
 
 In this activity you will make a video of crystals forming using the Raspberry Pi camera.
 
@@ -13,7 +13,7 @@ These instructions assume you have set up your Raspberry Pi camera. If you have 
 
 
 
-##Stage 2: Program the Raspberry Pi to Control the camera
+##Stage 2: Set up the camera to take the picures
 
 ###Create a folder for the pictures
 
@@ -44,7 +44,11 @@ Combined together this gives the full command: `raspistill -o /home/pi/timelapse
 
 If your command worked correctly you should be able to see 15 pictures in the folder.
 
+###Take the pictures
 
+1. Work out how long you want to take the pictures for and how often (the formation of copper sulpahet cystals took around 24 - 48 hours, more pictures will mean a smoother end result, but will take up more space.)
+1. Convert this to miliseconds 
+1. 
 
 
 
@@ -63,9 +67,13 @@ There are are some other ways to set up the camera to take the pictures instruct
 ##What next?
 
 
-##licence
+##Licence
+
+Unless otherwise specified, everything in this repository is covered by the following licence:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+***Timelapse Cystals*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 
-
-
-https://github.com/raspberrypilearning/timelapse-setup
+partly based on work at [https://github.com/raspberrypilearning/timelapse-setup](https://github.com/raspberrypilearning/timelapse-setup)
