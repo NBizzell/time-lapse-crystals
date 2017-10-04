@@ -1,27 +1,27 @@
-#TimeLapse Crystals
+# TimeLapse Crystals
 
 In this activity you will make a video of crystals forming using the Raspberry Pi camera.
 
 
-##Stage 0: Camera Setup
+## Stage 0: Camera Setup
 
 These instructions assume you have set up your Raspberry Pi camera. If you have not then use the [video / documentation here to set up your Camera] (http://www.raspberrypi.org/help/camera-module-setup/) 
 
-##Stage 1: Set up the experiment
+## Stage 1: Set up the experiment
 
 
 
 
 
-##Stage 2: Set up the camera to take the picures
+## Stage 2: Set up the camera to take the picures
 
-###Create a folder for the pictures
+### Create a folder for the pictures
 
 1. At the command line or if you have already opened the GUI open LXTerminal
 1. Type `mkdir timelapse` to create a folder to hold the pictures you are about to take.
 1. Ensure the camera is pointing towards the classroom.
 
-###The raspistill command
+### The raspistill command
 You may have used the command `raspistill` before to take individual pictures. We are going to use some other attributes of the command to take multiple pictures at specific time intervals. 
  
 These attributes are `-tl x` for the interval betwwen photographs and and `-t x` for the time for the overall 
@@ -32,7 +32,7 @@ We want to save the output to the `timelapse` folder we created so we will also 
 Combined together this gives the full command: `raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 30000`
 
 
-###Take some test pictures
+### Take some test pictures
 1. At the command line or LXTerminal type the command `raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 30000`
 1. A preview image should appear on the screen for the duration of the command running.
 1. Wait for the command to finish running (you may wish to walk past the camera slowly ocasionally to add interest to your pictures)
@@ -44,27 +44,22 @@ Combined together this gives the full command: `raspistill -o /home/pi/timelapse
 
 If your command worked correctly you should be able to see 15 pictures in the folder.
 
-###Take the pictures
+### Take the pictures
 
 1. Work out how long you want to take the pictures for and how often (the formation of copper sulpahet cystals took around 24 - 48 hours, more pictures will mean a smoother end result, but will take up more space.)
 1. Convert this to miliseconds 
-1. 
-
-
 
 There are are some other ways to set up the camera to take the pictures instructions are available here for [using Python](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-2/worksheet2.md) and [ using Bash and Cron](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-2/worksheet4.md).
 
-
-
-##Stage 3: Combine the pictures
+## Stage 3: Combine the pictures
 
 
 
 
-##What next?
+## What next?
 
 
-##Licence
+## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
