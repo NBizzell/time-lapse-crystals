@@ -1,4 +1,4 @@
-#Lesson 2 - Timelapse Photography
+# Lesson 2 - Timelapse Photography
 
 In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to take timelapse pictures using python and/or the command line. 
 
@@ -54,5 +54,3 @@ Unless otherwise specified, everything in this repository is covered by the foll
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 ***TimeLapse Photography*** by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-
