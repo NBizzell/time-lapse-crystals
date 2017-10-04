@@ -1,14 +1,14 @@
-#Raspberry Pi and Pi Camera Module Set Up
+# Raspberry Pi and Pi Camera Module Set Up
 
 In this lesson you will set up and test the Raspberry Pi and Pi Camera Module.
 
-##Raspberry Pi Set Up
+## Raspberry Pi Set Up
 
-## Step 1: Make sure that you have everything that you need
+### Step 1: Make sure that you have everything that you need
 
 Before you begin, check that you have all the parts that you need:
 
-### Required items:
+#### Required items:
 
 - A Raspberry Pi
 
@@ -28,7 +28,7 @@ Before you begin, check that you have all the parts that you need:
 - Power supply
 	- Use a [5V micro USB power supply](http://swag.raspberrypi.org/collections/pi-kits/products/raspberry-pi-universal-power-supply) to power your Raspberry Pi. Be careful that whatever power supply you use outputs at least 5V; insufficient power will cause your Pi to behave unexpectedly.
 
-## Step 2: Plugging in your Raspberry Pi
+### Step 2: Plugging in your Raspberry Pi
 
 Now you have all the parts you need to get up and running, let's start plugging in!
 
@@ -40,7 +40,7 @@ Make sure that your monitor or TV is turned on, and that you have selected the r
 1. Finally, when you are happy that you have plugged in all the cables and SD card required, plug in the micro USB power supply. This action will turn on and boot your Raspberry Pi.
 1. If this is the first time your Raspberry Pi and NOOBS SD card have been used, then you will have to select an operating system and configure it. [Follow the NOOBS guide to do this](http://www.raspberrypi.org/help/noobs-setup/).
 
-## Step 3: Logging into your Raspberry Pi
+### Step 3: Logging into your Raspberry Pi
 
 Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Let's log in to find out:
 
@@ -49,18 +49,18 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 1. Shut down the Raspberry Pi by typeing 'sudo halt'.
 1. Once the Raspberry Pi has shut down completely, remove the power lead 
 
-##Camera Set Up
+## Camera Set Up
 
 ![Raspberry Pi Camera Module](../images/rpicam.png)
 
-## Step 1: Connecting the camera
+### Step 1: Connecting the camera
 
 1. Locate the camera port next to the ethernet port
 1. Lift the tab on the top
 1. Place the strip in the connector (blue side facing the ethernet port)
 1. While holding the strip in place, push down the tab
 
-## Steo 2: Activate the camera
+### Steo 2: Activate the camera
 
 1. Connect a USB cable to the power
 1. Login with username `pi` and password `raspberry`
@@ -70,7 +70,7 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 1. Select `Finish`
 1. Select `Yes` to reboot
 
-## Step 3: Test the camera
+### Step 3: Test the camera
 
 1. Login again with username `pi` and password `raspberry`
 1. At the command prompt enter `raspistill -o image.jpg`
