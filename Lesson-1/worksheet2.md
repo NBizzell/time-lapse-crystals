@@ -1,4 +1,4 @@
-#Taking Pictures
+# Taking Pictures
 In this activity you will use python and the Pi Camera Module to take some pictures.
 
 ## Camera programming: capture an image
@@ -79,7 +79,7 @@ sudo apt-get install python-picamera python3-picamera python-rpi.gpio
 3. Save and run your script
 4. Press the button and try to take a selfie
 
-##Licence
+## Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
