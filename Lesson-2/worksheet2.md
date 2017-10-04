@@ -5,7 +5,7 @@ In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and t
 
 ## Step 0: Set up the Raspberry Pi and Pi Camera Module
 
-1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson-1/worksheet1.md) to remind you. 
+1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](https://github.com/NBizzell/time-lapse-crystals/blob/master/Lesson-1/worksheet1.md) to remind you. 
 
 ## Step 1: Set up your series of pictures
 
