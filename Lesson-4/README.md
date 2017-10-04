@@ -1,4 +1,4 @@
-#Lesson 4 - Viewing the results
+# Lesson 4 - Viewing the results
 
 In this lesson we will create a video from the photographs taken in the experiment and viewing the results.
 
@@ -25,7 +25,7 @@ In this lesson we will create a video from the photographs taken in the experime
 
 1. Students collect the Raspbery Pi and crystasl from the safe place.
 1. Students study petri dishes and discuss what has happened in the experiment.
-1. Styudents set up Raspberry Pi at their desks.
+1. Students set up Raspberry Pi at their desks.
 
 ### Main development
 
@@ -49,7 +49,3 @@ Unless otherwise specified, everything in this repository is covered by the foll
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 ***Viewing the results*** by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-
-
-
