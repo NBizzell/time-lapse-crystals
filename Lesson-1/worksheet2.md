@@ -32,7 +32,7 @@ sudo apt-get install python-picamera python3-picamera python-rpi.gpio
 
 1. Connect the Pi to the button as shown in the diagram below:
 
-    [Raspberry Pi Circuit setup](https://github.com/NBizzell/time-lapse-crystals/blob/master/images/picamera-gpio-setup.png)
+    ![Raspberry Pi Circuit setup](https://github.com/NBizzell/time-lapse-crystals/blob/master/images/picamera-gpio-setup.png)
 
 2. In the text editor, import the `RPi.GPIO` module, set up GPIO pin 17 and change the `sleep` line to use `GPIO.wait_for_edge` like so:
 
