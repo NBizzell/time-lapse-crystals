@@ -33,7 +33,7 @@ In this Lesson students learn how to setup an experiment seperating a solution.
 1. Explaination of Mixtures and solutions, how solutes desolve in Solvents, soutes only dissolve in certain liquids.
 1. Discussion on how mistures / solutions can be seperated. Draw out filtering, evaporation (possibly also distillation and chromatography)
 1. Explain the practical experiment (either to create and then seperate a solution by evaporation or just evaporation).
-1. Highlight safety issues and precautions for the experiment [CLEAPS safety card for Copper Sulphate](http://www.cleapss.org.uk/attachments/article/0/SSS40.pdf?Secondary/Science/Student%20Safety%20Sheets/).
+1. Highlight safety issues and precautions for the experiment [CLEAPS safety card for Copper Compounds](http://science.cleapss.org.uk/Resource/SSS040-Copper-and-its-compounds.pdf).
 1. Divide students into groups and hand out equipment.
 1. Students to set up experiment using the [worksheet](worksheet1.md).
 1. Studets to place experiments in a place tha is safe for them to be left and add the solution / start taking photographs.
