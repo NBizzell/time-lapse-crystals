@@ -1,4 +1,4 @@
-#Leson 3 - Setting up the experiment 
+# Leson 3 - Setting up the experiment 
 
 In this Lesson students learn how to setup an experiment seperating a solution.
 
