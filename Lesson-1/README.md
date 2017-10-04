@@ -1,4 +1,4 @@
-#Lesson 1 - Camera Set up
+# Lesson 1 - Camera Set up
 
 In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to take pictures 
 
