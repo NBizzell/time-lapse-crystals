@@ -2,7 +2,7 @@
 
 In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a BASH script
 
-##Step 0: Set up the raspberry Pi and Pi Camera Module
+## Step 0: Set up the raspberry Pi and Pi Camera Module
 
 1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson1/worksheet1.md) to remind you. 
 
@@ -109,7 +109,7 @@ You can shut down the Pi, remove it from the monitor and ethernet and simply hav
 
 You can even use a battery pack if you have one that lasts long enough for your requirements. This is especially handy if you need to position the power out of reach of a power socket, such as on a roof or in a tree!
 
-##Step 5: Remove the cron job
+## Step 5: Remove the cron job
 
 If you want the camera to keep capturing images then that is fine. However it is likely that at some point you will want to stop the images appearing every minute.
 
@@ -118,7 +118,7 @@ To do this go back to the command line and type `sudo nano crontab -e` and remov
 The pictures will stop being captured every minute.
 
 
-##Step 6: Next steps
+## Step 6: Next steps
 
 Try using [the command line](worksheet1.md) or [python](worksheet2.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
 
