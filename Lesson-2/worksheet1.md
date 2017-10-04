@@ -1,8 +1,8 @@
-#Command Line Timelapse photography
+# Command Line Timelapse photography
 
 In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using the command line.
 
-##Step 0: Set up the raspberry Pi and Pi Camera Module
+## Step 0: Set up the raspberry Pi and Pi Camera Module
 
 1.Set up the RPi and RPi Camera Module like you did last lesson. If you have forgotten how to do this use the [set up worksheet](../lesson1/worksheet1.md) to remind you. 
 
@@ -14,7 +14,7 @@ In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and t
 
 ## Step 2: Use the command line to start the process
 
-###The raspistill command
+### The raspistill command
 You have used the command `raspistill` before to take individual pictures. We are going to use some other attributes of the command to take multiple pictures at specific time intervals. 
  
 These attributes are `-tl x` for the interval betwwen photographs and and `-t x` for the time for the overall 
@@ -25,7 +25,7 @@ We want to save the output to the `timelapse` folder we created so we will also 
 Combined together this gives the full command: `raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 60000`
 
 
-###Take the pictures
+### Take the pictures
 1. At the command line or LXTerminal type the command `raspistill -o /home/pi/timelapse/class%02d.jpg -tl 2000 -t 60000`
 1. A preview image should appear on the screen for the duration of the command running.
 1. Wait for the command to finish running (you may wish to walk past the camera slowly ocasionally to add interest to your pictures)
@@ -42,7 +42,7 @@ If your command worked correctly you should be able to see 30 pictures in the fo
 Try using [python](worksheet2.md) or [BASH](worksheet4.md) to take the pictures or [combine the pictures you have taken to make a movie](worksheet3.md).
 
 
-##Licence
+## Licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
