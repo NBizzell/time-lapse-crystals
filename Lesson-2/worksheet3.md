@@ -1,8 +1,8 @@
-#Making a timelapse video
+# Making a timelapse video
 
 In this lesson we will be using the photographs we have taken to create a timelapse video.
 
-##Step 1: Copying the pictures from the Raspberry Pi
+## Step 1: Copying the pictures from the Raspberry Pi
 
 Use a USB Memory Stick to transfer the files to your computer:
 
