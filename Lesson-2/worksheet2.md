@@ -1,7 +1,7 @@
 
-# Python Timelapse Photography
+# Python Time-lapse Photography
 
-In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a python script.
+In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take time-lapse pictures using a python script.
 
 ## Step 0: Set up the Raspberry Pi and Pi Camera Module
 
@@ -21,7 +21,7 @@ or
 
 at the command line use the command `nano pythontl.py`
 
-2. Type the code eactly as it appears below into the file:
+2. Type the code exactly as it appears below into the file:
 
 ```
 import time
@@ -60,7 +60,7 @@ FPH = 600
 FRAMES = FPH * VDUR 
 ```
 
-Then we set the video duration (in  hours) `VDUR` and Frames per Hour `FPH`. in this case we are setting the duration to 0.1 hours (or 3 minutes) and the Frames per hour to 600 (or one photograph every 6 seconds). The total number of frames is then calculated by multiplying these together to give the variable `FRAMES`
+Then we set the video duration (in hours) `VDUR` and Frames per Hour `FPH`. In this case we are setting the duration to 0.1 hours (or 3 minutes) and the Frames per hour to 600 (or one photograph every 6 seconds). The total number of frames is then calculated by multiplying these together to give the variable `FRAMES`
 
 ```
 def capture_frame(frame):
@@ -68,7 +68,7 @@ def capture_frame(frame):
         time.sleep(2)
         cam.capture('/home/pi/pythontl/frame%04d.jpg' % frame)
 ```
-The next step is to define a procedure called `capture_frame` to capture and name the pictures. eache picture ius saved in the folder we created earlier `/home/pi/pythontl` and named with `frame` the number passed as an arugument and 4 training zeros e.g. 00001.jpg.
+The next step is to define a procedure called `capture_frame` to capture and name the pictures. each picture is saved in the folder we created earlier `/home/pi/pythontl` and named with `frame` the number passed as an argument and 4 training zeros e.g. 00001.jpg.
 
 ```
 for frame in range(FRAMES):
@@ -79,7 +79,7 @@ for frame in range(FRAMES):
     )
 ```
 
-This procedure is then called from within and for loop that runs until all of the frames required have been captured. This is defined by the `FRAMES` variable that was calculated earlier. For each frame the time befor ethe start of the capture process is recorded using `start = time.time()`. The procedure to capture the frames is called and passed the frame number `capture_frame(frame)`. 
+This procedure is then called from within and for loop that runs until all of the frames required have been captured. This is defined by the `FRAMES` variable that was calculated earlier. For each frame the time before the start of the capture process is recorded using `start = time.time()`. The procedure to capture the frames is called and passed the frame number `capture_frame(frame)`. 
 
 The last line then waits for the set time before the next frame is due to be captured. it does that by calculating the time interval `(60 * 60 / FPH)` and subtracting the time taken to capture the frame (by subtracting the start time from the current time `(time.time() - start)` 
 
@@ -98,9 +98,9 @@ Try using [the command line](worksheet1.md) or [BASH](worksheet4.md) to take the
 
 ## Extension
 
-Currently your code will run when you type in a command to call the python script. This however requires you to have the Raspberry Pi connected to a Monitor, Keyboard and Mouse. We can get the code to run eachtime the RPi powers up so that we can start the script without needing to be connected to anythning apart from power. This can be especially useful if we want to take timelapse picture in a location where space is limited. It also means we could use a battery pack and place the RPi in a remote location.
+Currently your code will run when you type in a command to call the python script. This however requires you to have the Raspberry Pi connected to a Monitor, Keyboard and Mouse. We can get the code to run each time the RPi powers up so that we can start the script without needing to be connected to anything apart from power. This can be especially useful if we want to take time-lapse picture in a location where space is limited. It also means we could use a battery pack and place the RPi in a remote location.
 
-To do this we add a `cron` job to the Raspberry Pi. `cron` is a scheduling tool that can be used to start scripts when needed (in this case at startup) or run them repeatedly at specific times of day.
+To do this we add a `cron` job to the Raspberry Pi. `cron` is a scheduling tool that can be used to start scripts when needed (in this case at start up) or run them repeatedly at specific times of day.
 
 to add a cron job follow the instructions below:
 
@@ -119,6 +119,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Python Timelapse Photography*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Python Time-lapse Photography*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Partly based on works at https://github.com/raspberrypilearning/python-picamera-setup and http://www.fotosyn.com/simple-timelapse-camera-using-raspberry-pi-and-a-coffee-tin/#video
