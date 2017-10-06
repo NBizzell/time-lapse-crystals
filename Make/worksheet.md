@@ -1,4 +1,4 @@
-# TimeLapse Crystals
+# Time-lapse Crystals
 
 In this activity you will make a video of crystals forming using the Raspberry Pi camera.
 
@@ -121,7 +121,7 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Timelapse Crystals*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Time-lapse Crystals*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 
 partly based on work at [https://github.com/raspberrypilearning/timelapse-setup](https://github.com/raspberrypilearning/timelapse-setup)
