@@ -1,26 +1,26 @@
-# Lesson 2 - Timelapse Photography
+# Lesson 2 - Time-lapse Photography
 
-In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to take timelapse pictures using python and/or the command line. 
+In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to take time-lapse pictures using python and/or the command line. 
 
 
 ## Learning objectives
 
 - Revise how the Raspberry Pi and Pi Camera are setup
-- Know how to take timelapse pictures with the Pi Camera using python
-- Know how to take timelapse pictures with the Pi Camera using the command line
+- Know how to take time-lapse pictures with the Pi Camera using python
+- Know how to take time-lapse pictures with the Pi Camera using the command line
 
 ## Learning outcomes
 
 ### All Students are able to:
-- Set up the Raspberry Pi and Pi Camera and take a series of timelapse photographs
+- Set up the Raspberry Pi and Pi Camera and take a series of time-lapse photographs
 
 ### Most Students are able to:
-- Take timelapse photograhs using the command line
-- Understand how to change the variable when using the command line for timelapse photography
+- Take time-lapse photographs using the command line
+- Understand how to change the variable when using the command line for time-lapse photography
 
 ### Some Students are able to:
-- Take timelapse photographs using python
-- Understand how to alter the python script to change the way the timelapse phtographs are taken.
+- Take time-lapse photographs using python
+- Understand how to alter the python script to change the way the time-lapse photographs are taken.
 
 ## Lesson summary
 
@@ -31,9 +31,9 @@ In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to tak
 
 ### Main development
 
-1. Students to attempt a short timelapse sequence (of the classroom) using the command line using the [Command line Timelapse](worksheet1.md) worksheet for support.
-1. Students to attempt a short timelapse sequence (of the classroom) using the Python using the [Python Timelapse](worksheet2.md) worksheet for support.
-1. Students combine their pictures into a timelapse movie using the [Timelapse video](worksheet3.md) for support
+1. Students to attempt a short time-lapse sequence (of the classroom) using the command line using the [Command line Time-lapse](worksheet1.md) worksheet for support.
+1. Students to attempt a short time-lapse sequence (of the classroom) using the Python using the [Python Time-lapse](worksheet2.md) worksheet for support.
+1. Students combine their pictures into a time-lapse movie using the [Time-lapse video](worksheet3.md) for support
 
 ### Plenary
 
@@ -42,7 +42,7 @@ In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to tak
 
 ### Extension
 
-1. Students can attempt to take timelapse photographs using a Bash Script using [Bash Timelapse](worksheet4.md) worksheet for support
+1. Students can attempt to take time-lapse photographs using a Bash Script using [Bash Time-lapse](worksheet4.md) worksheet for support
 
 ### Homework
 
@@ -53,4 +53,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***TimeLapse Photography*** by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Time-lapse Photography*** by [Neil Bizzell](http:twiter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
