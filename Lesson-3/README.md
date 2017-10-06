@@ -35,7 +35,7 @@ In this Lesson students learn how to setup an experiment seperating a solution.
 1. Explain the practical experiment (either to create and then seperate a solution by evaporation or just evaporation).
 1. Highlight safety issues and precautions for the experiment [CLEAPS safety card for Copper Compounds](http://science.cleapss.org.uk/Resource/SSS040-Copper-and-its-compounds.pdf).
 1. Divide students into groups and hand out equipment.
-1. Students to set up experiment following you direction.
+1. Students to set up experiment following directions.
 1. Studets to place experiments in a place tha is safe for them to be left and add the solution / start taking photographs.
 1. Clear away remaning practical equipment. 
 
