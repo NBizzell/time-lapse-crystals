@@ -1,6 +1,6 @@
-# Timelapse Using BASH
+# Time-lapse Using BASH
 
-In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take timelapse pictures using a BASH script
+In this lesson you will set up Raspberry Pi and Raspberry Pi Camera module and take time-lapse pictures using a BASH script
 
 ## Step 0: Set up the raspberry Pi and Pi Camera Module
 
@@ -89,7 +89,7 @@ You should see the following message:
 crontab: installing new crontab
 ```
 
-Now return to the timelapse directory to see the photos start to appear:
+Now return to the time-lapse directory to see the photos start to appear:
 
 ```bash
 cd ~/timelapse/
@@ -105,7 +105,7 @@ If you see pictures landing in the `camera` folder every minute, and you're happ
 
 Perhaps use a camera mount or simply tape the Pi to a wall or object and position the camera with tape. Make sure the camera position is static and will remain in place over time.
 
-You can shut down the Pi, remove it from the monitor and ethernet and simply have it running on power (when you plug it in, it will boot as normal and `cron` will run as expected) in the position you require.
+You can shut down the Pi, remove it from the monitor and Ethernet and simply have it running on power (when you plug it in, it will boot as normal and `cron` will run as expected) in the position you require.
 
 You can even use a battery pack if you have one that lasts long enough for your requirements. This is especially handy if you need to position the power out of reach of a power socket, such as on a roof or in a tree!
 
@@ -130,6 +130,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Timelapse Using BASH*** by [Neil Bizzell](http://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Timelapse Using BASH*** by [Neil Bizzell](http://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypilearning/timelapse-setup
