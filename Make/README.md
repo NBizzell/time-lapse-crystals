@@ -1,6 +1,6 @@
-# Timelapse Crystals
+# Time-lapse Crystals
 
-In this activity you will make a timelapse video that records cystals forming from a saturated solution. 
+In this activity you will make a time-lapse video that records crystals forming from a saturated solution. 
 
 ## Requirements
 As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
@@ -27,6 +27,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 [![Creative commons Licence](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-***Time Lapse Crystals*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+***Time Lapse Crystals*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
 
 Based on a work at https://github.com/nbizzell/time-lapse-crystals
