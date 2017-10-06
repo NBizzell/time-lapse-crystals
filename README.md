@@ -1,6 +1,6 @@
 # Time Lapse Crystals Scheme of Work
 
-![Alt text for your video](http://img.youtube.com/vi/SYl7JsgNdz4/0.jpg)](https://www.youtube.com/watch?v=SYl7JsgNdz4)
+[![Video of Copper Sulphate crystals forming](http://img.youtube.com/vi/SYl7JsgNdz4/0.jpg)](https://www.youtube.com/watch?v=SYl7JsgNdz4)]
 
 
 
