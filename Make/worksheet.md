@@ -2,20 +2,25 @@
 
 In this activity you will make a video of crystals forming using the Raspberry Pi camera.
 
-
 ## Stage 0: Camera Setup
 
 These instructions assume you have set up your Raspberry Pi camera. If you have not then use the [video / documentation here to set up your Camera](http://raspberrypi.org/help/camera-module-setup/) 
 
 ## Stage 1: Set up the experiment
 
+For this experiment you will need to choose a solute and a solvent to provide the crystals to film. You could use sugar and water (if you add food colouring you will get coloured crystals) or you could use something like Copper Sulphate and water. It might be fun to try a variety of different solutions to see what type of crystals are formed from each.
+
+The powder you use is the solute and the liquid is the solvent. When the solute dissolves in the solute the mixture is called a solution.
+
 ### Create a Saturated Solution
 
-1. Add some of your chosen solute to a beaker of hot water and stir.
+1. Add some of your chosen solute to a beaker of the solvent and stir (if using water this works best warm).
 1. Continue to add small amounts of the solute and stirring until no more will dissolve.
 
 ### Evaporate the Solution
 
+1. Add some of the solution to a shallow bowl. An evaporating bowl or a petri dish would be ideal for this.
+1. Find somewhere safe to put the bowl with space to position the camera over the bowl. A window sill may be a good location.
 
 ## Stage 2: Set up the camera to take the pictures
 
