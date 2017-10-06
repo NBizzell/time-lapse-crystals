@@ -24,7 +24,7 @@ In this Lesson students learn how to setup the Raspberry Pi and Pi Camera to tak
 
 ### Starter
 
-1. gather students around the front of the class and demonstrate how to set up the Raspberry Pi and the Pi Camera Module hardware.
+1. Gather students around the front of the class and demonstrate how to set up the Raspberry Pi and the Pi Camera Module hardware.
 
 ### Main development
 
