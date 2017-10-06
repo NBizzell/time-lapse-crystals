@@ -35,12 +35,12 @@ To produce a smooth video effect the frame rate should be around 24fps. To set t
 
   ![Save Project](/images/saveproject.png)
 
-1. Browse to a suitable location and choose a suitable filename press the Save button.
-1. Select the drop Down menu at the far left and choose `Save Movie` the `For Computer`
+2. Browse to a suitable location and choose a suitable filename press the Save button.
+3. Select the drop Down menu at the far left and choose `Save Movie` the `For Computer`
 
  ![Save Movie](/images/savemovie.png)
 
-1. Browse to a suitable location and choose a suitable filename then click `Save`
+4. Browse to a suitable location and choose a suitable filename then click `Save`
 
 ## Step 5: View the results
 
