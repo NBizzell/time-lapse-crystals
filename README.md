@@ -7,10 +7,10 @@
 ## Introduction
 This scheme of work is a cross curricular project involving Computer Science and Chemistry. The students will set up and program a Raspberry Pi and Pi Camera Module to record the growth of crystals in a petri dish.
 
-This scheme of work is specifically targetted towards KS3 Computer Science and KS3 Science. TRhe Scheme is designed for lessons of around 50 minutes. 
+This scheme of work is specifically targeted towards KS3 Computer Science and KS3 Science. The Scheme is designed for lessons of around 50 minutes. 
 
 If students have little or no exposure to Python it might be worth trying some simple exercises first for example the [Story time with Python exercise from the Raspberry Pi Foundation]
-(http://www.raspberrypi.org/learning/storytime/).
+(https://www.raspberrypi.org/learning/storytime/)
 
 ## Students will learn:
 Over the course of the lessons, students will learn:
@@ -18,10 +18,10 @@ Over the course of the lessons, students will learn:
 - How to use python to control the Pi Camera Module.
 - How to create a saturated solution.
 - How crystals are formed.
-- How to seperate a solution using evaporation.
+- How to separate a solution using evaporation.
 - How changing variables affects the rate of crystal formation.
 - How to use python to take time-lapse photographs.
-- How to edit the photographs into a time-laspe video.
+- How to edit the photographs into a time-lapse video.
 
 ## Computing Programme of Study Met:
 ### KS3:
@@ -38,32 +38,22 @@ As the scheme involves a chemistry practical investigation the Scheme also meets
 
 ### KS3:
 #### Scientific attitudes
-- Pay attention to objectivity and concern for accuracy, precision, repeatability and 
-reproducibility
-- Understand that scientific methods and theories develop as earlier explanations are 
-modified to take account of new evidence and ideas, together with the importance of 
-publishing results and peer review
+- Pay attention to objectivity and concern for accuracy, precision, repeatability and reproducibility
+- Understand that scientific methods and theories develop as earlier explanations are modified to take account of new evidence and ideas, together with the importance of publishing results and peer review
 - Evaluate risks. 
 
 #### Experimental skills and investigations
 - Make predictions using scientific knowledge and understanding
-- Select, plan and carry out the most appropriate types of scientific enquiries to test 
-predictions, including identifying independent, dependent and control variables, where 
-appropriate
-- Use appropriate techniques, apparatus, and materials during fieldwork and laboratory 
-work, paying attention to health and safety
-- Make and record observations and measurements using a range of methods for 
-different investigations; and evaluate the reliability of methods and suggest possible 
-improvements
+- Select, plan and carry out the most appropriate types of scientific enquiries to test predictions, including identifying independent, dependent and control variables, where appropriate
+- Use appropriate techniques, apparatus, and materials during fieldwork and laboratory work, paying attention to health and safety
+- Make and record observations and measurements using a range of methods for different investigations; and evaluate the reliability of methods and suggest possible improvements
 
 #### Pure and impure substances
 - Mixtures, including dissolving
-- Simple techniques for separating mixtures: filtration, evaporation, distillation and 
-chromatography
+- Simple techniques for separating mixtures: filtration, evaporation, distillation and chromatography
 
 #### Physical changes
-- Conservation of material and of mass, and reversibility, in melting, freezing, 
-evaporation, sublimation, condensation, dissolving
+- Conservation of material and of mass, and reversibility, in melting, freezing, evaporation, sublimation, condensation, dissolving
 
 [National Curriculum Science Programmes of Study](https://www.gov.uk/government/publications/national-curriculum-in-england-science-programmes-of-study)
 
@@ -76,10 +66,10 @@ For the majority of the lessons, it is suggested that work is carried out by stu
 - A monitor connected to the RPi per pair
 
 For the crystal formation lessons students will also need:
-- Copper Sulphate and water (or a preprepared saturated solution of Copper Sulphate)
+- Copper Sulphate and water (or a pre-prepared saturated solution of Copper Sulphate)
 - Glass beakers
 - Petri dishes
-- Bunsen burner, stand and mat(if preparing their own solutions)
+- Bunsen burner, stand and mat (if preparing their own solutions)
 - Safety glasses / goggles
 
 ## Lessons
@@ -93,4 +83,5 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 [![Creative commons Licence](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-***Time Lapse Crystals Scheme of work*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+***Time Lapse Crystals Scheme of work*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+
