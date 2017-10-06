@@ -4,7 +4,7 @@ In this lesson we will create a video from the photographs taken in the experime
 
 ## Learning objectives
 
-- Create a timelapse video from the photographs taken during the experiment.
+- Create a time-lapse video from the photographs taken during the experiment.
 - Watch the video to study how crystals are formed.
 
 ## Learning outcomes
@@ -13,24 +13,24 @@ In this lesson we will create a video from the photographs taken in the experime
 - Collect the photographs from the Raspberry Pi
 
 ### Most Students are able to:
-- Create a timelapse video using simple software.
+- Create a time-lapse video using simple software.
 
 
 ### Some Students are able to:
-- Create a timelapse video and expalin what is happening in the experiment.
+- Create a time-lapse video and explain what is happening in the experiment.
 
 ## Lesson summary
 
 ### Starter
 
-1. Students collect the Raspbery Pi and crystasl from the safe place.
+1. Students collect the Raspberry Pi and crystals from the safe place.
 1. Students study petri dishes and discuss what has happened in the experiment.
 1. Students set up Raspberry Pi at their desks.
 
 ### Main development
 
-1. Students to Save the photographs from the raspberry Pi onto a memory stick or via FTP to a storage area.
-1. Students to use Window Movie Maker (or other suitable software) to create a timelapse video using the pictures taken.
+1. Students to save the photographs from the raspberry Pi onto a memory stick or via FTP to a storage area.
+1. Students to use Window Movie Maker (or other suitable software) to create a time-lapse video using the pictures taken.
 1. Students to view the videos taken and discuss what happened during the experiment.
 1. Students suggest improvements to the experiment or RPi set up to improve the results.
 
@@ -48,4 +48,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Viewing the results*** by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Viewing the results*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
