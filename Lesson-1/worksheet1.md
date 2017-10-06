@@ -34,7 +34,7 @@ Now you have all the parts you need to get up and running, let's start plugging 
 
 1. Begin by slotting your SD card into the SD card slot on the Raspberry Pi, which will only fit one way. *Note that the software NOOBS should already be on this card. If it isn't then follow the [NOOBS guide here](http://www.raspberrypi.org/help/noobs-setup/).*
 1. Next, plug in your USB keyboard and mouse into the USB slots on the Raspberry Pi.
-Make sure that your monitor or TV is turned on, and that you have selected the right input (e.g. HDMI 1, DVI, etc).
+Make sure that your monitor or TV is turned on, and that you have selected the right input (e.g. HDMI 1, DVI, etc.).
 1. Then connect your HDMI cable from your Raspberry Pi to your monitor or TV.
 1. If you intend to connect your Raspberry Pi to the internet, plug in an Ethernet cable into the Ethernet port next to the USB ports; if you do not need an internet connection, skip this step.
 1. Finally, when you are happy that you have plugged in all the cables and SD card required, plug in the micro USB power supply. This action will turn on and boot your Raspberry Pi.
@@ -46,7 +46,7 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 
 1. Once your Raspberry Pi has completed the boot process, a login prompt will appear. The default login for Raspbian is username `pi` with the password `raspberry`. Note you will not see any writing appear when you type the password. This is a security feature in Linux.
 1. After you have successfully logged in, you will see the command line prompt `pi@raspberrypi~$`.
-1. Shut down the Raspberry Pi by typeing 'sudo halt'.
+1. Shut down the Raspberry Pi by typing 'sudo halt'.
 1. Once the Raspberry Pi has shut down completely, remove the power lead 
 
 ## Camera Set Up
@@ -55,12 +55,12 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 
 ### Step 1: Connecting the camera
 
-1. Locate the camera port next to the ethernet port
+1. Locate the camera port next to the Ethernet port
 1. Lift the tab on the top
-1. Place the strip in the connector (blue side facing the ethernet port)
+1. Place the strip in the connector (blue side facing the Ethernet port)
 1. While holding the strip in place, push down the tab
 
-### Steo 2: Activate the camera
+### Step 2: Activate the camera
 
 1. Connect a USB cable to the power
 1. Login with username `pi` and password `raspberry`
@@ -78,7 +78,7 @@ Hurrah, Raspbian has loaded, your Raspberry Pi is up and running... now what? Le
 
 If this does not happen go back and check you have connected and activated the Camera module correctly. 
 
-If the image appears as expecetd then you are ready to move on to [taking pictures](worksheet2.md)
+If the image appears as expected then you are ready to move on to [taking pictures](worksheet2.md)
 
 ## Licence
 
@@ -86,6 +86,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Raspberry Pi and Pi Camera Module Set Up*** by Neil Bizzell is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Raspberry Pi and Pi Camera Module Set Up*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on works at https://github.com/raspberrypilearning/python-picamera-setup and https://github.com/raspberrypilearning/teachers-classroom-guide
