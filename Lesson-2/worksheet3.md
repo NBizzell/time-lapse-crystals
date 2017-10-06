@@ -1,6 +1,6 @@
-# Making a timelapse video
+# Making a time-lapse video
 
-In this lesson we will be using the photographs we have taken to create a timelapse video.
+In this lesson we will be using the photographs we have taken to create a time-lapse video.
 
 ## Step 1: Copying the pictures from the Raspberry Pi
 
@@ -26,7 +26,7 @@ Use a USB Memory Stick to transfer the files to your computer:
 To produce a smooth video effect the frame rate should be around 24fps. To set this frame rate:
 
 1. Select all the frames using `Ctrl+a`.
-1. Select the `Edit` tac and choose duration.
+1. Select the `Edit` tab and choose duration.
 1. Set the duration to 0.042
 
 ## Step 4: Save the Project and Video
@@ -36,7 +36,7 @@ To produce a smooth video effect the frame rate should be around 24fps. To set t
   ![Save Project](/images/saveproject.png)
 
 2. Browse to a suitable location and choose a suitable filename press the Save button.
-3. Select the drop Down menu at the far left and choose `Save Movie` the `For Computer`
+3. Select the drop down menu at the far left and choose `Save Movie` the `For Computer`
 
  ![Save Movie](/images/savemovie.png)
 
@@ -53,4 +53,4 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Creating a Timelapse Video*** by [Neil Bizzell](https://twitter.com/NeilBizzell) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Creating a Timelapse Video*** by [Neil Bizzell](https://twitter.com/PiVangelist) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
